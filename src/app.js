@@ -1,4 +1,5 @@
 if (process.env.USER) require("dotenv").config();
+const port = process.env.PORT || 5001;
 const express = require("express");
 const app = express();
 const cors = require("cors");
